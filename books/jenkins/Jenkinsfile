@@ -116,7 +116,7 @@ pipeline {
                         oc project ${STAGE_PROJECT}
                         oc delete all -l app=${APP_NAME}
                         sleep 5
-                        oc new-app --name books --as-deployment-config -i books:stage ${APP_GIT_URL}
+                        oc new-app --name books --as-deployment-config -i books:stage
                         oc expose svc/${APP_NAME}
 
                    '''
