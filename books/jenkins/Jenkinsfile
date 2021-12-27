@@ -12,7 +12,7 @@ pipeline {
     environment {
         //TODO: Edit these vars as per your env
         DEV_PROJECT = "dxpwcr-books-dev"
-        STAGE_PROJECT = "dxpwcr-books-dev"
+        STAGE_PROJECT = "dxpwcr-books-stage"
         APP_GIT_URL = "https://github.com/marcinbazyluk/DO288-apps"
         NEXUS_SERVER = "http://nexus-common.apps.eu45.prod.nextcle.com/repository/nodejs"
 
